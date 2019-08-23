@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Wordguess</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
+
 <body>
-    <h1>wordguess</h1>
+  <!--<script src="game.js"></script>-->
+  <!--Need background image of header with image-->
+
+    <!--Need h1 to display over image-->
+  
+  <header>
+    <div id=hcontainer>
+        <div class="row">
+            <div class="col-md-6">
+                <h1>Yarn-Craft</h1>
+                <h2>Wordguess</h2>
+            </div>
+        </div>  
+    </div>
+  </header>
+
+  <div class="container">
+    <!--Need text that says "press any key to being"-->
+    <div id="pressbox">
+        <div class="row">
+            <div class="col-md-6">
+              <h6>
+                "Press any key to begin game."
+              </h6>
+            </div>
+          </div>
+    </div>
+    
+    <!--Need text that says "Current Word"-->
+    <div class="row">
+      <div class="col-md-6">
+        <h6>
+          "Current Word"
+        </h6>
+        <p id="currentword"></p>
+      </div>
+    </div>
+    <!--Need text that says "number of guesses remaining-->
+    <div class="row">
+      <div class="col-md-6">
+        <h6>
+          # of Guesses Remaining
+        </h6>
+        <p id="guesses"></p>
+      </div>
+      <!--Need text that says "letters guessed"-->
+      <div class="col-md-6">
+        <h6>
+          "Letters Guessed"
+        </h6>
+        <p id="letguessed"></p>
+      </div>
+    </div>
+
+  </div>
+
 </body>
+
 </html>

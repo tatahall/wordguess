@@ -1,0 +1,29 @@
+header{
+    background: url("../images/colorful-balls-of-yarn-on-a-table-42218343.jpg");
+    background-color: #4aaaa5;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 800px;
+}
+h1{
+    font-size: 90px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+h2{
+    margin-left: 50px;
+}
+body {
+    background-color: blue;
+}
+.container{
+    border: 15px solid black;
+    margin-top: 10px;
+}
+#pressbox{
+    border-bottom: 2px solid black;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 50px;
+}
